@@ -1,0 +1,21 @@
+{
+  "name": "envirofit",
+  "description": "enviroFit Site",
+  "main": "server.js",
+  "authors": [
+    "Jonathan Lee <jonlee50@hotmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "clean",
+    "energy"
+  ],
+  "homepage": "https://github.com/ppadhiyar/enviroFit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
