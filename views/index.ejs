@@ -1,12 +1,42 @@
-<!DOCTYPE html>
-<html>
+
+
+<% include ./partials/header.ejs %>
+
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <h1>enviroFit!</h1>
+    <div class="hero-image">
+      <img src="assets/clean-energy-heroImage.jpg" alt="Get A Quote" style="width:100%;">
+      <div class="hero-text">
+        <h3 class="heroText">Catchy Text Here</h3>
+        <h2 class="heroSubtitle">Catchy Subtitle Text Here</h2>
+        <!--<button>GET QUOTE</button>-->
+      </div>
+    </div>
+
+<div id="container">
+      <!--<div id="header">
+      <p>Header</p>
+      </div>-->
+
+  <div id="primary">
+      <p>Benefit 1</p>
+  </div>
+
+  <div id="content">
+      <p>Benefit 2</p>
+  </div>
+
+  <div id="secondary">
+      <p>Benefit 3</p>
+  </div>
+
+  <!--<div id="footer">
+      <p>Footer</p>-->
+  </div>
+</div>
+    
   </body>
-</html>
+
