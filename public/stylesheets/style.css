@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -11,29 +11,36 @@ a {
   position: absolute;
   float: left;
   top: 0px;
-  bottom: 0px;
+  bottom: 10px;
   left: 1px;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 47px;
 }
 
 .nav{
   border:1px solid #ccc;
-  position: relative;
-  bottom: 50px;
-  height:auto;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
   border-width:1px 0;
   list-style:none;
   margin:0;
   padding:0;
   text-align:center;
+  overflow: hidden;
+  background-color: white;
 }
 .nav li{
   display:inline;
+  
 }
 .nav a{
   display:inline-block;
   padding:10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .hero-image {
@@ -41,6 +48,11 @@ a {
   width:100%;
   height:550px;
   overflow:hidden;
+  background-image: url("../assets/clean-energy-heroImage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+  padding-bottom: 10px;
 }
 
 .hero-text {
@@ -56,27 +68,102 @@ a {
   font-size: 60px;
 }
 
-#container {
+#benefits-container {
   width: 960px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 50px;
 }
 
-#primary {
+#benefits-primary {
   float: left;
   width: 240px;
 }
 
-#content {
+#benefit-primary-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#benefit-primary-text {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+#benefits-secondary {
   float: left;
   width: 480px;
 }
 
-#secondary {
+#benefit-secondary-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#benefit-secondary-text {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+#benefits-tertiary {
   float: left;
   width: 240px;
 }
 
+#benefits-tertiary-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#benefit-tertiary-text {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
 #footer {
   clear: both;
+}
+
+#benefitsPicture-container{
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  
+}
+
+#benefitsPicture-text {
+  float: left;
+  width: 50%;
+  background-color: #ccc;
+  
+}
+
+#benefitsPicture {
+  float: left;
+  width: 50%;
+  background-color: #ccc;
+  
+}
+
+#benefitsPicture-text-title {
+  padding-left: 60%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#benefitsPicture-text-description {
+  padding-left: 60%;
+  font-size: 15px;
+}
+
+#benefitsPicture-text-description-list {
+  padding-left: 60%;
+  font-size: 15px;
+}
+
+#benefitsPicture-image {
+  padding-right: 60%;
+  height: 220px;
 }

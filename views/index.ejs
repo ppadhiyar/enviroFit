@@ -1,42 +1,76 @@
-
-
 <% include ./partials/header.ejs %>
 
-  <head>
-    <title><%= title %></title>
-    
-  </head>
-  <body>
-    <div class="hero-image">
-      <img src="assets/clean-energy-heroImage.jpg" alt="Get A Quote" style="width:100%;">
-      <div class="hero-text">
-        <h3 class="heroText">Catchy Text Here</h3>
-        <h2 class="heroSubtitle">Catchy Subtitle Text Here</h2>
-        <!--<button>GET QUOTE</button>-->
-      </div>
-    </div>
+<head>
+  <title>
+    <%= title %>
+  </title>
 
-<div id="container">
-      <!--<div id="header">
+</head>
+
+<body>
+  <div class="hero-image">
+    <!--<img src="assets/clean-energy-heroImage.jpg" alt="Get A Quote" style="width:100%;">-->
+    <div class="hero-text">
+      <h3 class="heroText">Catchy Text Here</h3>
+      <h2 class="heroSubtitle">Catchy Subtitle Text Here</h2>
+      <!--<button>GET QUOTE</button>-->
+    </div>
+  </div>
+
+  <div id="benefits-container">
+    <!--<div id="header">
       <p>Header</p>
       </div>-->
 
-  <div id="primary">
-      <p>Benefit 1</p>
-  </div>
+    <div id="benefits-primary">
+      <p id="benefit-primary-title">Benefit 1</p>
+      <p id="benefit-primary-text">Describe The Benefit Here</p>
+      <img src="assets/benefits_example_small.jpg" alt="Primary Benefit">
+    </div>
 
-  <div id="content">
-      <p>Benefit 2</p>
-  </div>
+    <div id="benefits-secondary">
+      <p id="benefit-secondary-title">Benefit 2</p>
+      <p id="benefit-secondary-text">Describe The Benefit Here</p>
+      <img src="assets/benefits_example_small.jpg" alt="Secondary Benefit">
+    </div>
 
-  <div id="secondary">
-      <p>Benefit 3</p>
-  </div>
+    <div id="benefits-tertiary">
+      <p id="benefits-tertiary-title">Benefit 3</p>
+      <p id="benefit-tertiary-text">Describe The Benefit Here</p>
+      <img src="assets/benefits_example_small.jpg" alt="Tertiary Benefit">
+    </div>
 
-  <!--<div id="footer">
+    <!--<div id="footer">
       <p>Footer</p>-->
   </div>
-</div>
-    
-  </body>
 
+  <div id="benefitsPicture-container">
+    <!--<div id="header">
+    <p>Header</p>
+    </div>-->
+
+    <div id="benefitsPicture-text">
+      <p id="benefitsPicture-text-title">Main Benefit 1</p>
+      <p id="benefitsPicture-text-description">
+        About Main Benefit 1
+        <br>
+        <ul id="benefitsPicture-text-description-list">
+            <li>Main Benefit Point 1</li>
+            <br>
+            <li>Main Benefit Point 2</li>
+            <br>
+            <li>Main Benefit Point 3</li>
+            <br>
+          </ul>  
+      </p>
+    </div>
+
+    <div id="benefitsPicture">
+      <img id="benefitsPicture-image" src="assets/benefits_example_small.jpg" alt="Benefits Large">
+    </div>
+
+    <!--<div id="footer">
+      <p>Footer</p>-->
+      
+  </div>
+</body>
