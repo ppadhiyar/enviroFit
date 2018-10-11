@@ -165,5 +165,47 @@ a {
 
 #benefitsPicture-image {
   padding-right: 60%;
-  height: 220px;
+  height: 216px;
+}
+
+#footer-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  background-color: black;
+  clear: both;
+}
+
+#footer-data-social {
+  background-color: black;
+  width: 100%;
+  align-self: auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+#footer-data-location {
+  background-color: black;
+  color: aliceblue;
+  width: 20%;
+  float: left;
+  padding-left: 30%;
+  padding-bottom: 0.15%;
+}
+
+#footer-data-hours {
+  background-color: black;
+  color: aliceblue;
+  width: 20%;
+  float: left;
+  padding-right: 30%;
+  padding-bottom: 0.1%;
 }
